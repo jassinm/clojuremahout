@@ -5,7 +5,7 @@ A Clojure wrapper around mahout's clusterdumper
 part's of code used from [mahout-vis] (https://github.com/antoniogarrote/mahout-vis)
 and added top terms + distance from centroid for clustered points.
 
-using this to upload mahout cluster result to mongo..
+using this to upload mahout clusters-clusterdpoints to mongo..
 
 ## License
 

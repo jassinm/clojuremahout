@@ -5,7 +5,7 @@
   (:require [clojure.set :as cset]))
 
 
-(bootstrap! "/Volumes/Locodrive/hadoop/localconf/core-site.xml")
+(bootstrap! (str (System/getenv "HADOOP_CONF_DIR") "/core-site.xml"))
 (def clusterpath "enron2-kmeans-clusters/clusters-20-final/part-r-00000")
 (def dictionarypath "enron2-vectors/dictionary.file-0")
 (def pointspath "enron2-kmeans-clusters/clusteredPoints/part-m-00000")
